@@ -1,0 +1,20 @@
+Pengumpulan 5
+Konten 10
+Carousel 10
+Form 10
+Validasi 15
+Ajax 10
+Firebase 15
+Responsive 5
+
+Notes: Design bagus modis animasi keren ngumpulin telat jadi nilainya kurang di responsive, ajax, dan carousel.
+
+Kumpul CV & Porto
+
+FE_Richard Sugianto Laiman_CVPortofolio
+
+swt@bncc.net
+
+deadline bsk 23:59
+
+file .zip

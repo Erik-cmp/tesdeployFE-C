@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./Assets/praetorian-guard.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/424f8a6cdf.js" crossorigin="anonymous"></script>
+    <script src="script.js" defer></script>
+    <title>Richard Sugianto Laiman</title>
+</head>
+<body id="no-overflow">
+    <img src="./Assets/Home-bg.png" alt="" class="home-bg">
+    <section class="Home-section">        
+        <div class="sidebar">                                    
+            <a class="sidebar-link-marked" href="./index.html">
+                <i class="fa-solid fa-house"></i>                
+            </a>
+            <a class="sidebar-link" href="./about.html">
+                <i class="fa-solid fa-user"></i>
+            </a>
+            <a class="sidebar-link" href="./porto.html">
+                <i class="fa-solid fa-file"></i>
+            </a>
+            <a class="sidebar-link" href="./contact.html">
+                <i class="fa-solid fa-address-card"></i>            
+            </a>                                                            
+        </div>
+        <div class="nav-links-mobile">
+            <button onclick="show()">
+                <img src="./Assets/hamburger.png" alt="">
+            </button>
+        </div>        
+        <div id="nav-mobile-overlay">
+            <div class="up">
+                <button onclick="hide()">
+                    <h1>X</h1>
+                </button>
+            </div>
+            <div class="low">
+                <a href="./index.html" class="marked">Home</a>
+                <a href="./about.html">About</a>
+                <a href="./porto.html">Portofolio</a>                
+                <a href="./contact.html">Contact</a>
+            </div>
+        </div>        
+        <div class="content">
+            <span class="text1">
+                <h1>Richard Sugianto Laiman</h1>
+            </span>
+            <span class="text2">                
+                <h3>I'm an Aspiring Developer</h3>                
+            </span>            
+            <div class="social-icons">
+                <a class="social-icon" href="https://twitter.com/" target="_blank">
+                    <i class="fa-brands fa-twitter"></i>  
+                </a>
+                <a class="social-icon" href="https://www.facebook.com/" target="_blank">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a class="social-icon" href="https://www.instagram.com/erikrez08/?hl=en" target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a class="social-icon" href="https://www.linkedin.com/in/richard-sugianto-341ab821b/" target="_blank">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+                <a class="social-icon" href="https://github.com/Erik-cmp" target="_blank">
+                    <i class="fa-brands fa-github"></i>
+                </a>                                                                
+            </div>
+        </div>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+</body>
+</html>

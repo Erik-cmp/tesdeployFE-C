@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./Assets/praetorian-guard.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/424f8a6cdf.js" crossorigin="anonymous"></script>
+    <script src="script.js" defer></script>
+    <script src="carousel.js" defer></script>
+    <title>Richard Sugianto Laiman</title>
+</head>
+<body>
+    <img src="./Assets/About-bg.png" alt="" class="about-bg">
+    <section class="Home-section">        
+        <div class="sidebar">                                    
+            <a class="sidebar-link" href="./index.html">
+                <i class="fa-solid fa-house"></i>                
+            </a>
+            <a class="sidebar-link" href="./about.html">
+                <i class="fa-solid fa-user"></i>
+            </a>
+            <a class="sidebar-link-marked" href="./porto.html">
+                <i class="fa-solid fa-file"></i>
+            </a>
+            <a class="sidebar-link" href="./contact.html">
+                <i class="fa-solid fa-address-card"></i>            
+            </a>                                    
+        </div>
+        <div class="nav-links-mobile">
+            <button onclick="show()">
+                <img src="./Assets/hamburger.png" alt="">
+            </button>
+        </div>        
+        <div id="nav-mobile-overlay">
+            <div class="up">
+                <button onclick="hide()">
+                    <h1>X</h1>
+                </button>
+            </div>
+            <div class="low">
+                <a href="./index.html">Home</a>
+                <a href="./about.html">About</a>
+                <a href="./porto.html" class="marked">Portofolio</a>                
+                <a href="./contact.html">Contact</a>
+            </div>
+        </div>        
+        <div class="porto-content">
+            <h1>MY PORTOFOLIO</h1>
+            <a href="#Portofolio-section">
+                <i class="fa-solid fa-chevron-down"></i>
+            </a>            
+        </div>         
+    </section>
+    <section id="Portofolio-section">
+        <h1>My Projects</h1>
+        <section aria-label="N-Img">
+            <div class="carousel" data-carousel>
+              <button class="carousel-button prev" data-carousel-button="prev">
+                <i class="fa-solid fa-chevron-left"></i>
+              </button>
+              <button class="carousel-button next" data-carousel-button="next">
+                <i class="fa-solid fa-chevron-right"></i>
+              </button>
+              <ul data-slides>
+                <li class="slide" data-active>
+                    <h2>Old Portofolio Website</h2>
+                    <img src="./Images/Image1.png">                  
+                </li>
+                <li class="slide">
+                    <h2>PuddingFest</h2>
+                    <img src="./Images/Image2.png">
+                </li>
+                <li class="slide">
+                    <h2>Piscis Oceania</h2>
+                    <img src="./Images/Image3.png">
+                </li>
+                <li class="slide">                    
+                    <h2>BelajarNusa (Group Project)</h2>
+                    <img src="./Images/Image4.png">
+                </li>
+              </ul>
+            </div>
+          </section>        
+    </section>
+
+    <section id="skill">
+        <h2>MY SKILLS</h2>
+        <div class="images">
+            <div class="row">
+                <img src="./Assets/1.png" alt="">
+                <img src="./Assets/2.png" alt="">
+                <img src="./Assets/3.png" alt="">
+                <img src="./Assets/4.png" alt="">
+            </div>
+            <div class="row">
+                <img src="./Assets/5.png" alt="">
+                <img src="./Assets/6.png" alt="">
+                <img src="./Assets/7.png" alt="">
+                <img src="./Assets/8.png" alt="">
+            </div>
+        </div>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+</body>
+</html>

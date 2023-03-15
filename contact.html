@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./Assets/praetorian-guard.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/424f8a6cdf.js" crossorigin="anonymous"></script>
+    <script src="script.js" defer></script>
+    <title>Richard Sugianto Laiman</title>
+</head>
+<body>
+    <img src="./Assets/About-bg.png" alt="" class="about-bg">
+    <section class="Home-section">        
+        <div class="sidebar">                                    
+            <a class="sidebar-link" href="./index.html">
+                <i class="fa-solid fa-house"></i>                
+            </a>
+            <a class="sidebar-link" href="./about.html">
+                <i class="fa-solid fa-user"></i>
+            </a>
+            <a class="sidebar-link" href="./porto.html">
+                <i class="fa-solid fa-file"></i>
+            </a>
+            <a class="sidebar-link-marked" href="./contact.html">
+                <i class="fa-solid fa-address-card"></i>            
+            </a>                                    
+        </div>
+        <div class="nav-links-mobile">
+            <button onclick="show()">
+                <img src="./Assets/hamburger.png" alt="" class="hamburger">
+            </button>
+        </div>        
+        <div id="nav-mobile-overlay">
+            <div class="up">
+                <button onclick="hide()">
+                    <h1>X</h1>
+                </button>
+            </div>
+            <div class="low">
+                <a href="./index.html">Home</a>
+                <a href="./about.html">About</a>
+                <a href="./porto.html">Portofolio</a>                
+                <a href="./contact.html" class="marked">Contact</a>
+            </div>
+        </div>        
+        <div class="contact-section">
+            <h1>CONTACT</h1>
+            <div class="contact-form">
+                <form action="" id="form" method="post">
+                    <div class="input-control">
+                        <h3>Name</h3>
+                        <input type="text" name="name" autocomplete="off" placeholder="Name" id="name">
+                        <div class="error"></div>
+                    </div>
+                    <div class="input-control">
+                        <h3>Email</h3>
+                        <input type="email" name="email" autocomplete="off" placeholder="Email" id="email">
+                        <div class="error"></div>
+                    </div>
+                    <div class="input-control">
+                        <h3>Phone Number</h3>
+                        <input type="text" name="phone" autocomplete="off" placeholder="Phone Number" id="phone">
+                        <div class="error"></div>
+                    </div>
+                    <div class="input-control">
+                        <h3>Comment</h3>
+                        <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
+                        <div class="error"></div>
+                    </div>
+                    <input id="submit-btn" type="submit" value="Submit"/>
+                </form>
+            </div>  
+        </div>      
+    </section>        
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>    
+</body>
+</html>
